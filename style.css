@@ -1,0 +1,1311 @@
+body{
+    background-image: url(Images/Backg.jpg);
+    background-size: contain;
+    margin: 0;
+    height: 88vh;
+}
+
+.container {
+    background-color: #F1F1E6 ;
+    border-radius: 10px;
+    width: 60vw;
+    height: 70vh;
+    margin-top: 12vh;
+    margin-left: 20vw;
+}
+.first-section, .second-section, .third-section, .forth-section{
+    border-bottom: 1px dashed #776191;
+    font-family: 'Roboto';
+}
+.first-section{
+    width: 60vw;
+    height: 15vh;
+    display: flex;
+    align-items: center; /* Vertikális középre igazítás */
+    justify-content: space-between; /* Elosztás */
+}
+.second-section{
+    width: 60vw;
+    height: 15vh;
+    display: flex;
+    align-items: center; /* Vertikális középre igazítás */
+}
+.third-section{
+    width: 60vw;
+    height: 15vh;
+    display: flex;
+}
+.forth-section{
+    width: 60vw;
+    height: 15vh;
+    display: flex;
+}
+.fifth-section{
+    width: 60vw;
+    height: 10vh;
+    display: flex;
+}
+.left, .right, .arrow-left, .arrow-right{
+    display:inline-block;
+    height: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.middle{
+    display:inline-block;
+    height: 13vh;
+    width: 18.5vw;
+    padding-left: 6.5vw;
+    margin-top: 2vh;
+    background-image: url('Images/Arrow.png');
+    background-repeat:no-repeat;
+    background-size: 42vh;
+    background-position-x: 2.5vw;
+}
+.left, .right {
+    width: 16vw;
+}
+.left{
+    margin-right: 1vw;
+}
+.right{
+    margin-left: 1vw;
+}
+.first-section p{
+    margin: 0;
+}
+.left p{
+    margin-left: 4vw;
+    box-shadow: 5px 5px 10px #1e3a4b;
+    font-family: 'montserrat';
+}
+.right p{
+    margin-right: 4vw;
+    box-shadow: 5px 5px 10px #1e3a4b;
+    font-family: 'montserrat';
+}
+.top-m, .bottom-m{
+    height: 5vh;
+}
+.top-m p, .bottom-m p, .right p, .left p{
+    height: 5vh;
+    width: 12vw;
+    border-radius: 10px;
+}
+.top-m{
+    margin-bottom: 1vh;
+}
+.top-m p{
+    border: 1px solid black;
+    background-color: cornsilk;
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-m p{
+    background-color: cornsilk;
+    border: 1px solid black;
+}
+.second-section input, .third-center-bot input, .forth-left-bot input{
+    width: 4vw;
+    border: none;
+    border-bottom: 2px solid #1e3a4b;
+    background-color: #F1F1E6;
+}
+
+.ConditionACIn{
+    margin-left: 10vw;
+    margin-right: 2vw;
+    width: 10vw;
+}
+.MainFL{
+    margin-right: 6vw;
+}
+.ConditionToReach{
+    width: 10vw;
+}
+.ReachFL{
+    margin-right: 10vw;
+    margin-left: 2vw;
+}
+input[type=number]::-webkit-outer-spin-button,
+        input[type=number]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+input[type=number]:focus{
+    background-color: white;
+    outline: none;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.third-left, .third-right, .third-center{
+    width: 20vw;
+    height: 15vh;
+}
+.third-left-top, .third-left-mid, .third-left-bot{
+height: 4vh;
+align-items: center;
+display: flex;
+margin-left: 5vw;
+}
+.third-left-top{
+    margin-top: 1.5vh;
+}
+label {
+    user-select: none; /* Letiltja a kijelölést */
+}
+.third-center-top{
+    height: 3vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #1e3a4b;
+}
+.third-center-bot{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-right-top, .third-right-bot{
+    height: 3vh;
+    margin-left: 5vw;
+}
+.third-right-top{
+    margin-top: 4.5vh;
+}
+.forth-left{
+    border-right: 1px dashed #776191;
+}
+.forth-left, .forth-right{
+    height: 15vh;
+    width: 35vw;
+}
+.forth-left-top{
+    height: 3vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
+    margin-right: 9vw;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #1e3a4b;
+}
+.forth-left-bot{
+    margin-top: 2vh;
+    height: 10vh;
+    margin-left: 1vw;
+}
+.third-right-first, .third-right-second, .third-right-third, .third-right-forth, .third-right-fifth{
+    margin-left: 5vw;
+    margin-top: 0.5vh;
+}
+.third-right-first{
+    margin-top: 1vh;
+}
+.points{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
+    margin-right: 15vw;
+    width: 7vw;
+    border-bottom: #00aeac solid 1px;
+    border-top: #00aeac solid 1px;
+    font-size: 30px;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+}
+.points, .hint, .next{
+    margin-top: 3vh;
+    height: 4vh;
+}
+.hint{
+    width: 10vw;
+    margin-right: 15vw;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hint svg {
+    height: 1.5vh;
+}
+
+.hint:hover svg {
+    animation: jello-vertical 0.7s both;
+  }
+  @keyframes jello-vertical {
+    0% {
+      transform: scale3d(1, 1, 1);
+    }
+    30% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+      transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+      transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+      transform: scale3d(0.95, 1.05, 1);
+    }
+    100% {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+
+.next {
+    --primary-color: #00aeac;
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold;
+  }
+  
+  .next .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .next .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  .next .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  .next:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .next:hover .arrow {
+    background: var(--secondary-color);
+  }
+  
+  .next:hover .arrow:before {
+    right: 0;
+  }
+
+.mobileSelector{
+display: none;
+}
+
+.selector{
+    position: absolute;
+    right: 3vw;
+    top: 33.5vh;
+    width: 15vw;
+    height: 45vh;
+    background-color: gainsboro;
+    display: block;
+    border-radius: 10px;
+}
+.selector label{
+    margin-left: 1vw;
+    margin-top: 1vh;
+}
+.selector #firstGroup{
+    margin-top: 1vh
+}
+
+#hintContainer{
+    position: absolute;
+    left: 3vw;
+    top: 40vh;
+    width: 15vw;
+    height: 28vh;
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+#VersionNo{
+    position: absolute;
+    top: 5vh;
+    right: 5vw;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+#removeError{
+    position: absolute;
+    top: 15vh;
+    left: 5vw;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+#RefreshConstraints{
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+#RefreshConstraintsMobile{
+    display: none;
+}
+#removeErrorMobile{
+    display: none;
+}
+
+.selectorImages{
+    height: 1.5vh;
+}
+
+.selectorRows{
+    display: block;
+}
+  
+.check {
+    cursor: pointer;
+    position: relative;
+    margin: 1vh;
+    width: 18px;
+    height: 18px;
+    -webkit-tap-highlight-color: transparent;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .check:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(34,50,84,0.03);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+  
+  .check svg {
+    position: relative;
+    z-index: 1;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #1e3a4b;
+    stroke-width: 1.5;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.2s ease;
+  }
+  
+  .check svg path {
+    stroke-dasharray: 60;
+    stroke-dashoffset: 0;
+  }
+  
+  .check svg polyline {
+    stroke-dasharray: 22;
+    stroke-dashoffset: 66;
+  }
+  
+  .check:hover:before {
+    opacity: 1;
+  }
+  
+  .check:hover svg {
+    stroke: #4285f4;
+  }
+  
+  #indTurn:checked + .check svg {
+    stroke: #4285f4;
+  }
+  
+  #indTurn:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+  }
+  
+  #indTurn:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+  }
+  
+/* Innentől jönnek a checkboxok */
+#indDescent:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#indDescent:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#indDescent:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+/* Választék */
+
+#indClimb:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#indClimb:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#indClimb:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+/* Választék */
+
+#firstGroup:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#firstGroup:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#firstGroup:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+/* Választék */
+
+#secondGroup:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#secondGroup:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#secondGroup:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+
+/* Választék */
+
+#thirdGroup:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#thirdGroup:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#thirdGroup:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+
+/* Választék */
+
+#fourthGroup:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#fourthGroup:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#fourthGroup:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+
+/* Választék */
+
+#fifthGroup:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#fifthGroup:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#fifthGroup:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+
+/* Választék */
+
+#sixthGroup:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#sixthGroup:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#sixthGroup:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+
+/* Választék */
+
+#seventhGroup:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#seventhGroup:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#seventhGroup:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+
+/* Választék */
+
+#eighthGroup:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#eighthGroup:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#eighthGroup:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+
+/* Választék */
+
+#ninthGroup:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#ninthGroup:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#ninthGroup:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+
+/* Választék */
+
+#tenthGroup:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#tenthGroup:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#tenthGroup:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+/* Választék */
+
+#eleventhGroup:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#eleventhGroup:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#eleventhGroup:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+/* Választék */
+
+#twelfthGroup:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#twelfthGroup:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#twelfthGroup:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+/* Választék */
+
+#thirteenthGroup:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#thirteenthGroup:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#thirteenthGroup:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+/* Választék */
+
+#indRelTen:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#indRelTen:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#indRelTen:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+
+/* Választék */
+
+#indRelUc:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#indRelUc:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#indRelUc:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+/* Választék utolsó 5 van*/
+
+#indAutoRev:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#indAutoRev:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#indAutoRev:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+/* Választék */
+
+#indEarlyToc:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#indEarlyToc:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#indEarlyToc:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+/* Választék */
+
+#indTLHigher:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#indTLHigher:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#indTLHigher:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+/* Választék */
+
+#indOddFl:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#indOddFl:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#indOddFl:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+/* Választék */
+
+#indAtSummer:checked + .check svg {
+    stroke: #4285f4;
+}
+
+#indAtSummer:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#indAtSummer:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+.errors{
+    position: fixed;
+    display: flex;
+    bottom: 2vh;
+    left: 47.2vw;
+    height: 5vh;
+    width: 6vw;
+    background-color: #00aeac;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: end;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.errorsHeader{
+    position: fixed;
+    display: flex;
+    bottom: 6.2vh;
+    left: 48.5vw;
+    height: 1.5vh;
+    width: 3.4vw;
+    background-color: red;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#imageSize0, #imageSize1{
+    width: 14px;
+    height: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 15px #1e3a4b;;
+}
+@media only screen and (max-width: 767px) {
+    #RefreshConstraints{
+        display: none;
+    }
+    #removeError{
+        display: none;
+    }
+    #RefreshConstraintsMobile{
+        display: block;
+        position: relative;
+        width: 20vw;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #removeErrorMobile{
+        display: block;
+        position: relative;
+        width: 20vw;
+        background-color: rgba(255, 0, 0, 0.1);
+        border: 1px solid rgba(255, 0, 0, 0.3);
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .container{
+        width: 80vw;
+        height: 80vh;
+        margin-top: 5vh;
+        margin-left: 10vw;
+    }
+    .first-section{
+        height: 22vh;
+        width: 80vw;
+        margin-top: 1vh;
+    }
+    .second-section{
+        height: 10vh;
+        width: 80vw;
+    }
+    .third-section{
+        height: 13vh;
+        width: 80vw;
+        margin-top: 1vh;
+        display: block;
+    }
+    .forth-section{
+        height: 18vh;
+        width: 80vw;
+    }
+    .fifth-section{
+        width: 80vw;
+    }
+    .first-section{
+        display: inline-block;
+    }
+    .left, .right{
+        display: block;
+        width: 80vw;
+        height: 5vh;
+        padding: 0;
+        margin: 0;
+    }
+    .middle{
+        display: inline-block;
+        width: 80vw;
+        height: 11vh;
+        background: none;
+        margin-top: 0;
+        padding-left: 10vw;
+    }
+    .top-m, .bottom-m{
+        height: 4vh;
+        width: 60vw;
+    }
+    .left p, .right p{
+        width: 50vw;
+        height: 4vh;
+        margin-left: 15vw;
+    }
+    .top-m p, .bottom-m p{
+        width: 60vw;
+        height: 4.5vh;
+        overflow: auto;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    .top-m{
+        margin-bottom: 1.5vh;
+    }
+    .ConditionACIn{
+        margin-left: 2vw;
+        margin-right: 0;
+        width: 25vw;
+    }
+    .ReachFL{
+        margin-left: 0;
+        margin-right: 6vw;
+    }
+    .ConditionToReach{
+        width: 25vw;
+    }
+    .second-section input, .third-center-bot input, .forth-left-bot input {
+        width: 8vw;
+        border: none;
+        border-bottom: 2px solid #1e3a4b;
+        background-color: #F1F1E6;
+    }
+    .second-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5vh; /* Kis térköz a select és input elemek között */
+    }
+    .second-section select,
+    .second-section input {
+        flex: 1 1 20%; /* Mindkét elem foglalja el a sor 45%-át */
+    }
+    .second-section select:nth-child(3){
+        margin-left: 2vw;
+    }
+    .third-left, .third-center{
+        display: block;
+        width: 80vw;
+        height: 5vh;
+    }
+    .third-left-bot, .third-left-top, .third-left-mid{
+        display: inline;
+        margin-left: 3vw;
+    }
+    .third-left{
+        margin-top: 5vh;
+        height: 2.5vh;
+    }
+    .third-center{
+        height: 4vh;
+    }
+    .third-center-top{
+        width: 40vw;
+        position: absolute;
+        top: 38vh;
+        left: 26vw;
+    }
+    .third-center-bot{
+        height: 4vh;
+    }
+    .third-center-bot input{
+        width: 15vw;
+    }
+    .third-right-top{
+        margin-top: 0;
+    }
+    .third-right-bot, .third-right-top{
+        margin-left: 17vw
+    }
+    .third-right{
+        display: block;
+        width: 80vw;
+        height: 7vh;
+    }
+    .forth-left{
+        width: 45vw;
+        height: 18vh;
+    }
+    .forth-right{
+        height: 18vh;
+    }
+    .forth-left-top{
+    width: 40vw;
+    margin: 1vh 0 0 2.5vw;
+    }
+    .forth-left-bot{
+        margin-top: 1vh;
+    }
+    .forth-left-bot select{
+        width: 40vw;
+        margin-bottom: 1vh;
+    }
+    .forth-left-bot input{
+        display: block;
+        width: 15vw;
+        margin-left: 15vw;
+    }
+    .points{
+        font-size: 20px;
+        width: 20vw;
+        margin-right: 2vw;
+        margin-left: 3vw;
+    }
+    .hint{
+        width: 27vw;
+        margin-right: 3vw;
+        font-size: 15px;
+    }
+
+    
+    .errors{
+        width: 20vw;
+        left: 3vw;
+        top: 3vh;
+    }
+    .errorsHeader{
+        width: 13vw;
+        left: 6.5vw;
+        top: 2vh;
+    }
+    .mobileSelector{
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 42vh;
+        width: 5vw;
+        height: 10vh;
+        background-color: #00aeac;
+        align-items: center;
+        border-radius: 5px 0 0 5px;
+        animation-duration: 0.5s;
+    }
+    .mobileSelector img{
+        width: 5vw;
+        height: auto;
+    }
+    .mobileSelector.show {
+        animation-name: mobileSlideIn; /* Beúsztatás */
+        animation-duration: 0.5s; /* Időtartam */
+        animation-fill-mode: forwards; /* Megtartja a végső állapotot */
+    }
+    
+    .mobileSelector.hide {
+        animation-name: mobileSlideOut; /* Kiúsztatás */
+        animation-duration: 0.5s; /* Időtartam */
+        animation-fill-mode: forwards; /* Megtartja a végső állapotot */
+    }
+
+    @keyframes mobileSlideIn {
+        from {
+            right: 0; /* Kezdő pozíció */
+        }
+        to {
+            right: 95vw; /* Végső pozíció */
+        }
+    }
+    @keyframes mobileSlideOut {
+        from {
+            right: 95vw; /* Kezdő pozíció */
+        }
+        to {
+            right: 0; /* Végső pozíció */
+        }
+    }
+
+    @keyframes slideIn {
+        from {
+            right: -100vw; /* Kezdő pozíció */
+        }
+        to {
+            right: 0; /* Végső pozíció */
+        }
+    }
+    @keyframes slideOut {
+        from {
+            right: 0; /* Kezdő pozíció */
+        }
+        to {
+            right: -100vw; /* Végső pozíció */
+        }
+    }
+    .selector{
+        position: fixed;
+        right: -100vw; /* Start off-screen */
+        top: 0;
+        width: 100vw;
+        height: 100vh; /* Full height */
+        background-color: gainsboro;
+        animation-duration: 0.5s;
+    }
+    .selector.show {
+        animation-name: slideIn; /* Beúsztatás */
+        animation-fill-mode: forwards; /* Megtartja az animáció végső állapotát */
+    }
+    .selector.hide {
+        animation-name: slideOut; /* Kiúsztatás */
+        animation-fill-mode: forwards; /* Megtartja az animáció végső állapotát */
+    }
+    .selector label{
+        margin-left: 13vw;
+    }
+    .selector label:first-child{
+        margin-top: 25vh;
+    }
+    #hintContainer{
+        display: none;
+    }
+    #VersionNo{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
+    .container{
+        width: 65vw;
+        height: 90vh;
+        margin-top: 2vh;
+        margin-left:14.3vw;
+    }
+    #hintContainer{
+        left: 1.5vw;
+        width: 12vw;
+        height: 34vh;
+        top: 36vh;
+    }
+    .left, .right{
+        width: 21vw;
+        height: 8vh;
+    }
+    .middle{
+        width: 23vw;
+        height: 18vh;
+        background-size: 58vh;
+        background-position-x: 0vw;
+        background-position-y: 1vh;
+        margin-top: 1.5vh;
+    }
+    .left p, .right p, .top-m, .bottom-m, .top-m p, .bottom-m p{
+        height: 8vh;
+    }
+    .first-section, .third-section{
+        height: 20vh;
+        width: 65vw;
+    }
+    .second-section{
+        height: 15vh;
+        width: 65vw;
+    }
+    .forth-section{
+        height: 25vh;
+        width: 65vw;
+    }
+    .forth-left{
+        width: 35vw;
+        height: 25vh;
+    }
+    .forth-right{
+        width: 30vw;
+    }
+    .third-right-first, .third-right-second, .third-right-third, .third-right-forth, .third-right-fifth{
+        margin-left: 0vw;
+    }
+    .third-right{
+        width: 25vw;
+    }
+    .third-right-bot{
+        margin-top:1vh;
+    }
+    .third-left, .third-center, .third-right{
+        height: 20vh;
+    }
+    .third-left-top{
+        margin-top: 4vh;
+    }
+    .third-right-top{
+        margin-top: 6vh;
+    }
+    .selector{
+        width: 17vw;
+        top: 20vh;
+        right: 1.5vw;
+        height: 67vh;
+    }
+    .selector label{
+        margin-left: 0.5vw;
+    }
+    .points{
+        font-size: 20px;
+    }
+    .hintsvg{
+        margin-bottom: 0.5vh;
+    }
+    .MainFL{
+        margin-right: 6vw;
+    }
+    .second-section input, .third-center-bot input, .forth-left-bot input{
+        border: none;
+        border-bottom: 2px solid #1e3a4b;
+        background-color: #F1F1E6;
+    }
+    input[type=number]:focus{
+        background-color: white;
+        outline: none;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+
+    .errors{
+        bottom: 2vh;
+        left: 4vw;
+        height: 7vh;
+        width: 6vw;
+        font-size: 30px;
+    }
+    .errorsHeader{
+        bottom: 8.2vh;
+        left: 5.4vw;
+        height: 1.5vh;
+        width: 3.4vw;
+        font-size: 14px;
+    }
+}
