@@ -7272,6 +7272,30 @@ document.addEventListener('keydown', function (event) {
         selectElement.value = 'inDescent';
         inputElement.focus();
     }
+    if (event.key === 'x'){
+        const selectElement = document.getElementById('indCondAcIn');
+        const inputElement = document.getElementById('indMainFl');
+        const inpReachFL = document.getElementById('indReachFl');
+        const selindSpecialOne = document.getElementById('indSpecialOne');
+        const selindSpecialTwo = document.getElementById('indSpecialTwo');
+        const inpindSpecialFl = document.getElementById('indSpecialFl');
+        const cheindAtSummer = document.getElementById('indAtSummer');
+
+        selectElement.value = 'atFL';
+        inpReachFL.value = 140;
+        selindSpecialOne.value = 'AMLIBA';
+        selindSpecialTwo.value = 'aboveFl';
+        inpindSpecialFl.value = 260;
+
+        if(cheindAtSummer.checked){
+            cheindAtSummer.checked = false;
+        }
+        else{
+            cheindAtSummer.checked = true;
+        }
+
+        inputElement.focus();
+    }
     if (event.key === 's'){
         const checkboxElement = document.getElementById('indAtSummer');
 
